@@ -31,3 +31,24 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  border-radius: 25%;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  border: 20px solid gray;
+  color: salmon;
+  background-color: greenyellow;
+}
+.container h1 {
+  font-size: 42px;
+}
+.containerBtn button {
+  border-radius: 15px;
+  margin: 50px 20px;
+  padding: 20px 50px;
+  color: salmon;
+  font-size: 36px;
+  background-color: lightblue;
+}

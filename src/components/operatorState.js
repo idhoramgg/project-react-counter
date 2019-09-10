@@ -1,4 +1,5 @@
 import React from 'react'
+import '../App.css';
 
 class OperatorState extends React.Component{
   constructor(props){
@@ -27,11 +28,13 @@ class OperatorState extends React.Component{
 
   render(){
     return(
-      <div style={{border:"2px solid black"}}>
+      <div className="container">
         <h1>Score</h1>
         <h1>{this.state.score}</h1>
+        <div className="containerBtn">
         <button onClick = {this.decrement}>-</button>
         <button onClick = {this.increment}>+</button>
+        </div>
       </div>
     )
   };
