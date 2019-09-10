@@ -5,7 +5,7 @@ class OperatorState extends React.Component{
     super(props);
     this.state = {
       score:0,
-      stop: true
+      // stop: true
     };
   }
 
