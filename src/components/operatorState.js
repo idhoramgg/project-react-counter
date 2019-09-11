@@ -1,5 +1,22 @@
 import React from 'react'
-import '../App.css';
+// import '../App.css';
+import styled from 'styled-components';
+
+const ButtonY = styled.button`
+border-radius: 15px;
+border: none;
+margin: 50px 20px;
+padding: 20px 50px;
+color: white;
+font-size: 36px;
+background-color: transparent;
+  :hover {
+    background-color:#333;
+    border 2px solid white;
+  }
+
+`
+
 
 class OperatorState extends React.Component{
   constructor(props){
@@ -32,8 +49,8 @@ class OperatorState extends React.Component{
         <h1>Score</h1>
         <h1>{this.state.score}</h1>
         <div className="containerBtn">
-        <button onClick = {this.decrement}>-</button>
-        <button onClick = {this.increment}>+</button>
+        <ButtonY onClick = {this.decrement}>-</ButtonY>
+        <ButtonY onClick = {this.increment}>+</ButtonY>
         </div>
       </div>
     )

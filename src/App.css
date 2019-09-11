@@ -33,7 +33,7 @@
   }
 }
 
-/* OPERATORSTATE CSS */
+/* OPERATORSTATE CSS  */
 
 .container {
   border-radius: 25%;
@@ -52,11 +52,12 @@
   font-size: 42px;
   color: white;
 }
-.containerBtn button {
+/* .containerBtn button {
   border-radius: 15px;
+  border: none;
   margin: 50px 20px;
   padding: 20px 50px;
   color: white;
   font-size: 36px;
   background-color: transparent;
-}
+} */
